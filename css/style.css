@@ -1,9 +1,13 @@
 body {
     background-color: blueviolet;
+    text-align:center;
 }
 
 .big-title {
     font-size: 10rem;
     color: #dde000;
+    font-family: 'Lobster', cursive;
+}
+h2{
     font-family: 'Lobster', cursive;
 }
