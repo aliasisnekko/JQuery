@@ -12,6 +12,8 @@ $("h1").on('click', function() {
 
 $('button').on('click', function() {
     $('h1').css('color', "red");
+    $('button').html('<b>I said dont click me</b>');
+    $('h1').slideToggle();
 })
 $('button').on('click', function() {
     $('h1').slideToggle().animate({ opacity: 0.5 });
