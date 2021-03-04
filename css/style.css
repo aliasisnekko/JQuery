@@ -1,5 +1,6 @@
 body {
-    background-color: blueviolet;
+    background: rgb(144,21,143);
+background: linear-gradient(137deg, rgba(144,21,143,1) 0%, rgba(255,0,95,1) 100%);
     text-align:center;
 }
 
