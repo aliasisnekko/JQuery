@@ -1,5 +1,12 @@
+html {
+    height: 100%;
+}
 body {
-    background: rgb(144,21,143);
+    height: 88%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+       background: rgb(144,21,143);
 background: linear-gradient(137deg, rgba(144,21,143,1) 0%, rgba(255,0,95,1) 100%);
     text-align:center;
 }
