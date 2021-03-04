@@ -5,6 +5,7 @@ $('button').addClass('btn-danger');
 $("button").html('<b>Dont Click Me</b>')
 $('button').on('click', function() {
     $('h1').css('color', "red");
+    $('body').addClass("changed-bg");
     $('button').html('<b>I said dont click me</b>');
     $('h1').slideToggle();
 
